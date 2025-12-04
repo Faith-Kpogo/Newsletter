@@ -119,14 +119,13 @@ button {
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
-  transition: ease 0.3s;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 button:hover {
   background: linear-gradient(135deg, hsl(347, 100%, 66%), hsl(4, 100%, 67%));
   box-shadow: 0 15px 30px rgba(255, 98, 87, 0.4);
 }
-
 .success-page {
   padding: 60px;
   max-width: 450px;
